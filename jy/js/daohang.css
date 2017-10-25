@@ -1,0 +1,24 @@
+/* CSS Document */
+
+#nav1 { 
+		height:80px; 
+		list-style:none;}
+#nav1 li { 
+			float:left;
+			background:url(../images/按钮1.png);
+			
+			width:144px;
+			height:80;
+			display:inline;}
+#nav1 li a{ 
+			 display:block; 		
+			 height:80px; 
+			 text-align:left;}
+#nav1 li a:hover{
+			background:url(../images/按钮1（1）.png);
+		
+
+
+			}
+	
+	

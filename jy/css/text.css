@@ -1,0 +1,232 @@
+.div{
+}
+a:visited{
+    color:#555555;
+    text-decoration: none;
+}
+a:link{
+    color:#555555 ;
+       text-decoration: none;
+   }
+a:hover{
+          color: #ff0000;
+          text-decoration: underline;
+      }
+
+
+img{
+    border: 0;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.div1{
+    margin-top:20px ;
+	margin-bottom:9px;
+    border: 0px silver solid;
+    height: 190px;
+}
+.div2{
+    border: 0px silver solid;
+    height: 80px;
+}
+    .div2 div{
+    float: left;
+    }
+
+.div3{
+    border: 0px silver solid;
+    height: 290px;
+}
+.div3 div{
+    float: left;
+    height: 290px;
+
+}
+    .div3-1{
+        width: 640px;
+        border: 0px silver solid;
+    }
+        .div3-1 .div3-1-1{
+            width: 640px;
+            height: 30px;
+        }
+        .div3-1 .div3-1-2{
+            width: 640px;
+            height: 250px;
+            border: 2px #FF6F95 solid;
+        }
+            .div3-1 .div3-1-3{
+                margin-left: 20px;
+                width: 310px;
+                height: 250px;
+                border: 0px #FF6F95 solid;
+            }
+
+    .div3-2{
+        width: 340px;
+        border: 0px silver solid;
+        margin-left: 16px;
+}
+        .div3-2 .div3-2-1{
+            width: 340px;
+            height: 30px;
+        }
+        .div3-2 .div3-2-2{
+            width: 340px;
+            height: 250px;
+            border: 2px #D82D84 solid;
+        }
+            .div3-2 .div3-2-2 .ul{
+                list-sytle:none;
+            }
+.div4{
+    height: 110px;
+    border: 0px silver solid;
+    padding-top:5px;
+}
+.div5{
+    height: 510px;
+    border: 0px silver solid;
+}
+    .div5 div{
+        width: 324px;
+        height: 240px;
+        border: 0px silver solid;
+        margin: 4px;
+        float: left;
+    }
+        .div5 ul{
+            font-size: 13px;
+            padding-left:18px;
+            text-align: left;
+            line-height: 23px;
+        }
+        .div5 span{
+            width: 160px;
+            height: 40px;
+            margin: 0px;
+            border: 0px saddlebrown solid;
+            float: left;
+        }
+        .div5 .more{
+                     width: 60px;
+                     height: 30px;
+                     margin-top: 10px;
+                     border: 0px saddlebrown solid;
+                     float: right;
+                 }
+                .div5 .more a{
+                    line-height:10px;
+                    text-decoration: none;
+                    color:  #c0c0c0;
+                    font-weight: bold;
+                    font-family: "楷体";
+                }
+            .div5 a:visited{
+                color:#555555;
+                text-decoration: none;
+            }
+            .div5 a:link{
+                color: #555555;
+                text-decoration: none;
+            }
+            .div5 a:hover{
+                color: green;
+                text-decoration: underline;
+            }
+        .div5 .news{
+            width: 324px;
+            height: 200px;
+            margin: 0px;
+            border: 2px salmon solid;
+        }
+
+.div6{
+    height: 180px;
+    border: 0px silver solid;
+}
+    .div6 .imgnew{
+        width: 1002px;
+        height: 30px;
+        border: 0px salmon solid;
+        margin: 0px;
+    }
+    .div6 .imgnews{
+        width: 1002px;
+        height: 150px;
+        border-bottom: 2px #EA0911 solid;
+        margin: 0px;
+    }
+.div7{
+    height: 150px;
+    border: 0px silver solid;
+    margin-top: 5px;
+}
+    .div7 .imgvideo{
+        width: 1002px;
+        height: 30px;
+        border: 0px salmon solid;
+        margin: 0px;
+    }
+    .div7 .video{
+        width: 1002px;
+        height: 120px;
+        border-bottom: 2px #FC9500 solid;
+        margin: 0px;
+    }
+            .div7 .video div{
+               font-size: 13px;
+               margin: 2px 5px 2px 5px;
+               float: left;
+            }
+.div8{
+    height: 45px;
+    border: 1px silver solid;
+}
+.div9{
+    height: 120px;
+    border: 0px silver solid;
+    margin: 0px;
+    padding-top: 30px;
+    color: #8b8c8e;
+    line-height: 24px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+        .div9 a:visited{
+            color:#8b8c8e;
+            text-decoration: none;
+        }
+        .div9 a:link{
+            color: #8b8c8e ;
+            text-decoration: none;
+        }
+        .div9 a:hover{
+                color: #ff0000;
+                text-decoration: underline;
+        }
+	#demo1{
+height:auto;
+text-align:left;
+}
+#demo2{
+height:auto;
+text-align:left;
+}
+#demo1  li{
+list-style-type:none;
+height:30px;
+text-align:left;
+text-indent:15px;
+
+}
+#demo2  li{
+list-style-type:none;
+height:30px;
+text-align:left;
+text-indent:15px;
+
+}

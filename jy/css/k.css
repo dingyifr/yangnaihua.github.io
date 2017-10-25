@@ -1,0 +1,98 @@
+@font-face {
+    font-family : myfont;
+    src : url(./111111.ttf) ;
+}
+.div2{
+    font-family:myfont;
+    font-size:10px;
+}
+/*
+body,div,dl,dt,dd,ul,ol,li,pre,form,fieldset,input,textarea,blockquote,emBED{
+    padding:0; margin:0;
+}   */
+.div2 #menu_out #menu_in #menu li{
+    list-style-type:none;
+    font-size:17px;
+}
+.div2 #menu_out #menu_in #menu a {
+    color:#2b2b2b;text-decoration:none;
+}
+.div2 #menu_out #menu_in #menu a:visited {
+    color:#2b2b2b;text-decoration:none;
+}
+.div2 #menu_out #menu_in #menu a:hover {
+    color:#ff0000;text-decoration:underline;
+}
+.div2 #menu_out #menu_in #menu a:active {
+    color:#2b2b2b;
+}
+/*主导航菜单*/
+.div2 #menu_out #menu_in #menu ul{
+    padding:0;border:0;list-style:none;line-height:150%;margin-top: 0;margin-right: 0;margin-bottom: 0;margin-left: 10px;
+}
+.div2 #menu_out{
+    width:975px;padding-left:5px;	margin-left:auto;margin-right:auto;
+
+}
+.div2 #menu_in{
+    padding-right:5px;
+}
+.div2 #menu{
+    height:73px;position:relative; left:0px; top:0px;
+}
+.div2 #menu_out #menu_in #menu .menu_line{
+    width:0px;
+}
+.div2 #menu_out #menu_in #menu .menu_line2{
+;width:15px;
+}
+.div2 #menu_out #menu_in #menu #mav{
+    padding-left:20px;
+}
+.div2 #menu_out #menu_in #menu #mav li{
+    float:left;height:35px;
+}
+.div2 #menu_out #menu_in #menu #mav li a{
+    float:left;display:block;padding-left:0px;height:37px;
+    cursor:pointer;text-decoration:none;
+}
+.div2 #menu_out #menu_in #menu #mav li a span{
+    float:left;padding:13px 12px 10px 20px;line-height:14px;
+    font-size:20px;font-weight:bold;
+    color:#333333;text-decoration:none;
+    font-size: 20px;
+}
+.div2 #menu_out #menu_in #menu #mav li .nav_on{
+    /*鼠标经过时变换背景，方便JS获取样式*/background-position:left 100%;
+}
+.div2 #menu_out #menu_in #menu #mav li .nav_on span{
+    /*鼠标经过时变换背景，方便JS获取样式*/background-position:right 100%;
+    color:#FFFFFF;text-decoration:none;	padding:14px 24px 9px 20px;
+    font-size: 20px;
+}
+/*子栏目*/
+.div2 #menu_out #menu_in #menu #menu_con{text-align:left;padding-left:20px;clear:both;}
+.div2 #menu_out #menu_in #menu #menu_con li{float:left;height:22px;margin-top:8px;}
+.div2 #menu_out #menu_in #menu #menu_con li a{
+    display:block;float:left;
+    cursor:pointer;padding-left:3px;
+}
+.div2 #menu_out #menu_in #menu #menu_con li a span{
+    float:left;	padding:10px 0px 4px 0px;
+    line-height:12px;
+}
+.div2 #menu_out #menu_in #menu #menu_con li a:hover{
+    text-decoration:none;
+}
+.div2 #menu_out #menu_in #menu #menu_con li a:hover span{
+
+}
+/*子栏目位置 */
+.div2 #menu_out #menu_in #menu #qh_con0 { position:absolute;top:35px;left: 20px; }
+.div2 #menu_out #menu_in #menu #qh_con1 { position:absolute;top:35px;left: 50px;}
+.div2 #menu_out #menu_in #menu #qh_con2 { position:absolute;top:35px;left: 156px; }
+.div2 #menu_out #menu_in #menu #qh_con3 { position:absolute;top:35px;left: 272px; }
+.div2 #menu_out #menu_in #menu #qh_con4 { position:absolute;top:35px;left: 380px; }
+.div2 #menu_out #menu_in #menu #qh_con5 { position:absolute;top:35px;left: 480px;}
+.div2 #menu_out #menu_in #menu #qh_con6 { position:absolute;top:35px;left:auto;right:20px;}
+.div2 #menu_out #menu_in #menu #qh_con7 { position:absolute;top:35px;left: auto;right:20px;}
